@@ -1,0 +1,7 @@
+<repository>
+	<id>com.your_repo_name</id>
+	<url>http://www.yourwebsite.com/repository</url>
+	<name>A Repository</name>
+	<thumb>http://www.yourwebsite.com/thumb.png</thumb>
+	<description>A Repository</description>
+</repository>
