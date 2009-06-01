@@ -1,1 +1,13 @@
 h1. Boxee
+
+This is a boxee app generator that will stub out the files needed to develop a boxee application. Currently, it supports only RSS based applications.
+
+h2. Usage
+
+From the command-line you can generate the files needed by doing:
+
+boxee app_name --type rss
+
+h2. Future
+
+I'll be adding skin support shorlty.
