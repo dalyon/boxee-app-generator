@@ -2,3 +2,11 @@
 
 require 'rubygems'
 require 'boxee'
+
+options = FACollective::Boxee::Options.parse!(ARGV)
+
+if options.name.nil? || options.app_type.nil?
+  raise StandardError, "You need to provide both a name and type of boxee application." and exit(0)
+end
+
+FACollective::Boxee::Generate.scaffold(options)

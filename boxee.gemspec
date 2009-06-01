@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.description = %q{A generator for building boxee applications}
   s.email = %q{Your Email Address}
   s.executables = ["boxee"]
-  s.extra_rdoc_files = ["README.markdown", "ChangeLog.rdoc", "LICENSE"]
-  s.files = ["README.markdown", "LICENSE", "ChangeLog.rdoc", "Rakefile", "bin/boxee", "lib/boxee.rb", "lib/boxee/options.rb", 'lib/boxee/generate.rb', 'lib/boxee/templates/repository.xml', 'lib/boxee/templates/index.xml', 'lib/boxee/templates/index.php', 'lib/boxee/templates/download/com.repoid.appid/descriptor.xml']
+  s.extra_rdoc_files = ["README.textile", "ChangeLog.rdoc", "LICENSE"]
+  s.files = ["README.textile", "LICENSE", "ChangeLog.rdoc", "Rakefile", "bin/boxee", "lib/boxee.rb", "lib/boxee/options.rb", 'lib/boxee/generate.rb']
   s.has_rdoc = true
   s.homepage = %q{http://www.facollective.com}
   s.require_paths = ["lib"]
